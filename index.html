@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FirstCryCSS.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bts2.css">
+    <script src="FirstCryJS.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="super_container">
+        <header class="header">
+            <div class="header_main">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="col-lg-2 col-sm-3 col-3 order-1">
+                            <div class="logo_container">
+                                <div class="logo" ><a href="#"><img class="w-100" src="fs_logo.png" alt="logo"></a></div>
+                            </div>
+                        </div> <!-- Search -->
+                        <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                            <div class="header_search">
+                                <div class="header_search_content">
+                                    <div class="header_search_form_container">
+                                        <form action="#" class="header_search_form clearfix"> <input type="search" required="required" class="header_search_input" placeholder="Search for a Category, Brand or Product">
+                                            <div class="custom_dropdown" style="display: none;">
+                                                
+                                            </div> <button type="submit" class="header_search_button trans_300" value="Submit"><img src="search.svg" alt=""></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Wishlist -->
+                        <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right toph">
+                            <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+                                
+                                <div class="wishlist d-flex flex-row align-items-center justify-content-end">
+                                    <div class="nic l1"><img src="geo-alt.svg" alt=""></div>
+                                    <div class="topn">
+                                        <ul class="topn">
+                                            <li class="wishlist_text l1"><a href="$">Select location |</a></li>
+                                            <li class="wishlist_text l1"><a href="#">Stores & Preschools |</a></li>
+                                            <li class="wishlist_text l1"><a href="#">Support |</a></li>
+                                            <li class="wishlist_text l1"><a href="#">Track Order |</a></li>
+                                            <li class="wishlist_text l1"><a href="#">FirstCry Parenting |</a></li>
+                                            <li class="wishlist_text l1"><a href="#">Login / Register |</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="wishlist_icon wishpos"><img src="heart.svg" alt=""></div>
+                                    <div class="wishlist_content">
+                                        <div class="wishlist_text wtpos"><a href="#">Shortlist |</a></div>
+                                        <!-- <div class="wishlist_count">10</div> -->
+                                    </div>
+                                </div> <!-- Cart -->
+                                <div class="cart">
+                                    <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                                        <div class="cart_icon cpos"> <img src="cartcustom.png" alt="">
+                                        </div>
+                                        <div class="cart_content">
+                                            <div class="cart_text"><a href="#">Cart</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Main Navigation -->
+            <nav class="main_nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="main_nav_content d-flex flex-row">
+                                <!-- Categories Menu -->
+                                <!-- Main Nav Menu -->
+                                <div class="main_nav_menu">
+                                    <ul class="standard_dropdown main_nav_dropdown">
+                                        <li class="hassubs"><a href="#"><strong>ALL CATEGORIES &nbsp; <img src="chevron-down.svg" alt=""></strong></a>
+                                            <ul>
+                                                <li><a href="#">BOY FASHION</a>
+                                                    <ul>
+                                                        <li> <a href="#">T-shirt</a></li>
+                                                        <li><a href="#">Jeans</a></li>
+                                                        <li><a href="#">Nightwear</a></li>
+                                                        <li><a href="#">Partywear</a></li>
+                                                        <li> <a href="#">Shirts</a></li>
+                                                        <li><a href="#">Shorts</a></li>
+                                                        <li><a href="#">Ethnic Wear</a></li>
+                                                        <li><a href="#">Sweaters</a></li>
+                                                        <li><a href="#">Socks</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">GIRL FASHION</a>
+                                                    <ul>
+                                                        <li><a href="#">Tops & Tees</a></li>
+                                                        <li><a href="#">Jeans</a></li>
+                                                        <li><a href="#">Sets & Suit</a></li>
+                                                        <li><a href="#">Nightwear</a></li>
+                                                        <li><a href="#">EthnicWear</a></li>
+                                                        <li><a href="#">Shorts</a></li>
+                                                        <li><a href="#">Socks</a></li>
+                                                        <li><a href="#">Swimwear</a></li>
+                                                        <li><a href="#">Rainwear</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">FOOTWEAR</a>
+                                                    <ul>
+                                                        <li><a href="#">Casual Shoes</a></li>
+                                                        <li><a href="#">Sandals</a></li>
+                                                        <li><a href="#">Booties</a></li>
+                                                        <li><a href="#">Bellies</a></li>
+                                                        <li><a href="#">Formal</a></li>
+                                                        <li><a href="#">Flip Flops</a></li>
+                                                        <li><a href="#">Clogs</a></li>
+                                                        <li><a href="#">Sneakers</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">DIAPERING</a>
+                                                    <ul>
+                                                        <li><a href="#">Diaper</a></li>
+                                                        <li><a href="#">Taped</a></li>
+                                                        <li><a href="#">Pants</a></li>
+                                                        <li><a href="#">Wipes</a></li>
+                                                        <li><a href="#">RashCream</a></li>
+                                                        <li><a href="#">Nappies</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">FEEDING</a>
+                                                    <ul>
+                                                        <li><a href="#">Sippers</a></li>
+                                                        <li><a href="#">Food</a></li>
+                                                        <li><a href="#">Bottles</a></li>
+                                                        <li><a href="#">Teats</a></li>
+                                                        <li><a href="#">Cups</a></li>
+                                                        <li><a href="#">Hankies</a></li>
+                                                        <li><a href="#">Sterilizer</a></li>
+                                                        <li><a href="#">Teether</a></li>
+                                                        <li><a href="#">Warmer</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">BATH & SKIN</a>
+                                                    <ul>
+                                                        <li><a href="#">Lotions</a></li>
+                                                        <li><a href="#">Oils</a></li>
+                                                        <li><a href="#">Powders</a></li>
+                                                        <li><a href="#">Soaps</a></li>
+                                                        <li><a href="#">Shampoos</a></li>
+                                                        <li><a href="#">Conditioners</a></li>
+                                                        <li><a href="#">Towels</a></li>
+                                                        <li><a href="#">Robes</a></li>
+                                                        <li><a href="#">Tubs</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">NURSERY</a>
+                                                    <ul>
+                                                        <li><a href="#">Cots</a></li>
+                                                        <li><a href="#">Cradels</a></li>
+                                                        <li><a href="#">Playpens</a></li>
+                                                        <li><a href="#">Blankers</a></li>
+                                                        <li><a href="#">Quilts</a></li>
+                                                        <li><a href="#">Wrappers</a></li>
+                                                        <li><a href="#">Nets</a></li>
+                                                        <li><a href="#">Wardrobes</a></li>
+                                                        <li><a href="#">Storages</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">HEALTH</a>
+                                                    <ul>
+                                                        <li><a href="#">ToothPaste</a></li>
+                                                        <li><a href="#">ToothBrush</a></li>
+                                                        <li><a href="#">Handwash</a></li>
+                                                        <li><a href="#">Sanitizers</a></li>
+                                                        <li><a href="#">Disinfectant</a></li>
+                                                        <li><a href="#">Purifier</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="hassubs"> <a href="#">BOY FASHION</a>
+                                            <ul>
+                                                <li> <a href="#">T-shirt</a></li>
+                                                <li><a href="#">Jeans</a></li>
+                                                <li><a href="#">Nightwear</a></li>
+                                                <li><a href="#">Partywear</a></li>
+                                                <li> <a href="#">Shirts</a></li>
+                                                <li><a href="#">Shorts</a></li>
+                                                <li><a href="#">Ethnic Wear</a></li>
+                                                <li><a href="#">Sweaters</a></li>
+                                                <li><a href="#">Socks</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="hassubs"> <a href="#">GIRL FASHION</i></a>
+                                            <ul>
+                                                <li><a href="#">Tops & Tees</a></li>
+                                                <li><a href="#">Jeans</a></li>
+                                                <li><a href="#">Sets & Suit</a></li>
+                                                <li><a href="#">Nightwear</a></li>
+                                                <li><a href="#">EthnicWear</a></li>
+                                                <li><a href="#">Shorts</a></li>
+                                                <li><a href="#">Socks</a></li>
+                                                <li><a href="#">Swimwear</a></li>
+                                                <li><a href="#">Rainwear</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="hassubs"> <a href="#">FOOTWEAR</a>
+                                            <ul>
+                                                <li><a href="#">Casual Shoes</a></li>
+                                                <li><a href="#">Sandals</a></li>
+                                                <li><a href="#">Booties</a></li>
+                                                <li><a href="#">Bellies</a></li>
+                                                <li><a href="#">Formal</a></li>
+                                                <li><a href="#">Flip Flops</a></li>
+                                                <li><a href="#">Clogs</a></li>
+                                                <li><a href="#">Sneakers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">TOYS</a>
+                                            <ul>
+                                                <li><a href="#">Musical Toys</a></li>
+                                                <li><a href="#">Learning</a></li>
+                                                <li><a href="#">Puzzles</a></li>
+                                                <li><a href="#">Rattles</a></li>
+                                                <li><a href="#">Robots</a></li>
+                                                <li><a href="#">Board Games</a></li>
+                                                <li><a href="#">Barbie</a></li>
+                                                <li><a href="#">Art</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">DIAPERING</a>
+                                            <ul>
+                                                <li><a href="#">Diaper</a></li>
+                                                <li><a href="#">Taped</a></li>
+                                                <li><a href="#">Pants</a></li>
+                                                <li><a href="#">Wipes</a></li>
+                                                <li><a href="#">RashCream</a></li>
+                                                <li><a href="#">Nappies</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">GEAR</a>
+                                            <ul>
+                                                <li><a href="#">Strollers</a></li>
+                                                <li><a href="#">Ride-ons</a></li>
+                                                <li><a href="#">Tricycles</a></li>
+                                                <li><a href="#">Walkers</a></li>
+                                                <li><a href="#">Carriers</a></li>
+                                                <li><a href="#">Carrycots</a></li>
+                                                <li><a href="#">Prams</a></li>
+                                                <li><a href="#">Scooters</a></li>
+                                                <li><a href="#">Seats</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">FEEDING</a>
+                                            <ul>
+                                                <li><a href="#">Sippers</a></li>
+                                                <li><a href="#">Food</a></li>
+                                                <li><a href="#">Bottles</a></li>
+                                                <li><a href="#">Teats</a></li>
+                                                <li><a href="#">Cups</a></li>
+                                                <li><a href="#">Hankies</a></li>
+                                                <li><a href="#">Sterilizer</a></li>
+                                                <li><a href="#">Teether</a></li>
+                                                <li><a href="#">Warmer</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">BATH & SKIN</a>
+                                            <ul>
+                                                <li><a href="#">Lotions</a></li>
+                                                <li><a href="#">Oils</a></li>
+                                                <li><a href="#">Powders</a></li>
+                                                <li><a href="#">Soaps</a></li>
+                                                <li><a href="#">Shampoos</a></li>
+                                                <li><a href="#">Conditioners</a></li>
+                                                <li><a href="#">Towels</a></li>
+                                                <li><a href="#">Robes</a></li>
+                                                <li><a href="#">Tubs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">NURSERY</a>
+                                            <ul>
+                                                <li><a href="#">Cots</a></li>
+                                                <li><a href="#">Cradels</a></li>
+                                                <li><a href="#">Playpens</a></li>
+                                                <li><a href="#">Blankers</a></li>
+                                                <li><a href="#">Quilts</a></li>
+                                                <li><a href="#">Wrappers</a></li>
+                                                <li><a href="#">Nets</a></li>
+                                                <li><a href="#">Wardrobes</a></li>
+                                                <li><a href="#">Storages</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">MOMS</a>
+                                            <ul>
+                                                <li><a href="#">Maternity_Lingerie</a></li>
+                                                <li><a href="#">Maternity_BottomWear</a></li>
+                                                <li><a href="#">Maternity_EthnicmWear</a></li>
+                                                <li><a href="#">Maternity_Tops</a></li>
+                                                <li><a href="#">Nighty</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">HEALTH & SAFETY</a>
+                                            <ul>
+                                                <li><a href="#">ToothPaste</a></li>
+                                                <li><a href="#">ToothBrush</a></li>
+                                                <li><a href="#">Handwash</a></li>
+                                                <li><a href="#">Sanitizers</a></li>
+                                                <li><a href="#">Disinfectant</a></li>
+                                                <li><a href="#">Purifier</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">BOUTIQUES</a>
+                                            <ul>
+                                                <li><a href="#">M'andy</a></li>
+                                                <li><a href="#">BownBee</a></li>
+                                                <li><a href="#">KiddoPanti</a></li>
+                                                <li><a href="#">Bumzee</a></li>
+                                                <li><a href="#">Rikidoos</a></li>
+                                                <li><a href="#">Aarika</a></li>
+                                                <li><a href="#">Enfance</a></li>
+                                                <li><a href="#">Jane</a></li>
+                                                <li><a href="#">Graco</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">CARTER'S</a>
+                                            <ul>
+                                                <li><a href="#">BOY FASHION</a></li>
+                                                <li><a href="#">GIRL FASHION</a></li>
+                                                <li><a href="#">FOOTWEAR</a></li>
+                                                <li><a href="#">DIAPERING</a></li>
+                                                <li><a href="#">FEEDING</a></li>
+                                                <li><a href="#">BATH & SKIN</a></li>
+                                                <li><a href="#">NURSERY</a></li>
+                                                <li><a href="#">HEALTH</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav> 
+            
+        </header>
+        
+        
+    </div>
+    
+    <div class="container1"> 
+        <div class="heig">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img class="csl" src="i2.webp" alt="">
+                  </div>
+            
+                  <div class="item">
+                    <img class="csl" src="i1.webp" alt="" >
+                  </div>
+                
+                  <div class="item">
+                    <img class="csl" src="i3.gif" alt="" >
+                  </div>
+
+                  <div class="item">
+                    <img class="csl" src="i4.webp" alt="" >
+                  </div>
+
+                  <div class="item">
+                    <img class="csl" src="i5.gif" alt="" >
+                  </div>
+
+                  <div class="item">
+                    <img class="csl" src="i6.webp" alt="" >
+                  </div>
+
+                  <div class="item">
+                    <img class="csl" src="c4.gif" alt="" >
+                  </div>
+                  <div class="item">
+                    <img class="csl" src="c5.gif" alt="" >
+                  </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span><img class="cal" src="skip-start-circle-fill.svg" alt=""></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span><img class="car" src="skip-end-circle-fill.svg" alt=""></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        
+      </div>
+      <!-- body -->
+      <div class="comca">
+        <h2 class="premh"><strong>PREMIUM BOUTIQUES</strong></h2>
+        <div class="pomh">
+            <div class="row row-cols-3 row-cols-md-3 g-4 allca">
+                <div class="col">
+                  <div class="card phca" >
+                    <img src="ph1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title cati">Shubh Navaratri | 2 - 12+Y</h5>
+                      <p class="card-text casti">Festival Of Dance & Colors.</p>
+                      <p class="card-text casti2">SHOP NOW</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card phca">
+                    <img src="ph2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title cati">Trusting Every Step | Up To By</h5>
+                      <p class="card-text casti">With Cute Walk</p>
+                      <p class="card-text casti2">SHOP NOW</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card phca">
+                    <img src="ph3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title cati">Unwind In Style | 2 - 12+Y</h5>
+                      <p class="card-text casti">Frocks & Shirts</p>
+                      <p class="card-text casti2">SHOP NOW</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card phca">
+                    <img src="ph4.webp"class= "card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title cati">Baby's Favourite | Up To 24M</h5>
+                      <p class="card-text casti">Tops, Tees & Pajamas</p>
+                      <p class="card-text casti2">SHOP NOW</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card phca">
+                      <img src="ph5.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Get Ready | 2 - 12+Y</h5>
+                        <p class="card-text casti">Ethnic Wear for Them</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph6.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Get Dolled Up | 1 - 10Y</h5>
+                        <p class="card-text casti">In Pretty Frocks & Dresses</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph7.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Comfy All Day | 1 - 10Y</h5>
+                        <p class="card-text casti">Top, Tees, Bottoms & More</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph8.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Her Glam Night | 2-8Y</h5>
+                        <p class="card-text casti">Pretty Dresses & Gowns</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph9.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Best Foot Forward | Up To 12Y</h5>
+                        <p class="card-text casti">Comfy Footwear</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph10.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Easy Fall Styles | Up To 24M</h5>
+                        <p class="card-text casti">Full Sleeves Styles For Your Li'l Ones</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph11.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">Fresh For Fall | 2 - 10Y</h5>
+                        <p class="card-text casti">Full Sleeves Styles For Your Kiddo</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card phca">
+                      <img src="ph12.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title cati">The Bottoms Store | 2-10Y</h5>
+                        <p class="card-text casti">Jeans, Trousers, Pajamas & More</p>
+                        <p class="card-text casti2">SHOP NOW</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="row cat2ca">
+            <div class="col-sm-6">
+              <div class="card cat2b">
+                <div class="card-body ca2b1">
+                  <p class="card-text ca2ti ca2ch">View All Boutiques</p>
+                  <img class="ca2ch3" src="caret-right-fill.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card cat2b">
+                <div class="card-body ca2b1">
+                  <p class="card-text ca2ti ca2ch">View All Premium Brands</p>
+                  <img class="ca2ch4" src="caret-right-fill.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Footer -->
+    <div class="fcfooter">
+        <div>
+            <h2 class="fhead">big store for little ones</h2>
+        </div>
+        <div>
+            <p class="foothead">FirstCry Baby & Kids Products Online Store</p>
+            <p class="footsub">Explore kids and baby products galore at FirstCry.com, the Big Store for Little Ones. We at FirstCry.com empathize with you as a mother who always aspires to bestow her newborn, infant, baby or kid with the best things even for their smallest needs. That is why, 'Mommy Knows Best'. From breastfeeding to bathing essentials, right furniture to myriad baby care products, a mother needs them all for her lil' one. This inspires us to offer convenient & hassle-free online shopping not just for babies & kids but for moms-to-be & new moms as well.
+                With 2 Lakh Baby & Kids Products, 2 Million Happy Customers, and 2 Thousand+ top-notch national and international brands like Babyhug, Pampers, Mamypoko, Huggies, Baby Dove, Sebamed, Himalaya, Philips Avent, Medela, FisherPrice, Carter's, Cute Walk by Babyhug, Kookie Kids, Babyoye, Mark & Mia and more you can look forward to an unparalleled shopping experience with us. Shop for baby & kids products online ranging across diapering, feeding & nursing, skin & health care, baby & kids toys, newborn & infant clothing, baby clothes, kids wear, footwear, fashion accessories, baby gear, nursery, kids furniture, gifts, party supplies, books & CDs, school supplies and more at great discounts.
+                With the FirstCry mobile app, now you can shop on the go! Download the FirstCry Android and the iOS app and Voila!</p>
+            <p class="foothead">FirstCry Parenting</p>
+            <p class="footsub">With FirstCry Parenting, FirstCry isn’t just about shopping anymore. No matter if you are a first time parent, or it’s you second pregnancy we have you covered. FirstCry Parenting aids you not only as a perplexed parent, but also at each step from Planning to Pregnancy.
+                Learn more about the important vaccines for your child from birth to 12 years, the immunization schedule and have it personalized for your child and never miss a vaccine with our timely notifications.
+                Worried about your child’s growth? Don’t be! Track your child’s height & weight with our child growth tracker and take proactive steps towards your child’s healthy growth.
+                Benefit from expert advice, researched articles, Q&A’s, tools & trackers and tips from fellow parents and simplify your parenting experience with us.</p>
+            <p class="foothead">FirstCry Offers</p>
+            <p class="footsub">Satisfaction and Savings come guaranteed with irresistible FirstCry offers & deals on a range of high quality products. These are including but not limited to the FirstCry shopping carnivals, loyalty cash program, app offers, bank & wallet offers, Free @ Three, cashback, Guaranteed savings offers & more.
+                To start with, why not grab some great discounts with the FirstCry coupons and buy baby & kids products online from anywhere in India with Free Shipping, Cash On Delivery (COD), Same & Next day delivery & EZ returns options. Happy Shopping!</p>
+            <p class="footsub">© 2010-2021 www.FirstCry.com. All rights reserved. This website can be best viewed in resolution width of 1024 and above.</p>
+        </div>
+    </div>
+</body>
+</html>
